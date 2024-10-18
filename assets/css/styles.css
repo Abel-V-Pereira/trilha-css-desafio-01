@@ -1,0 +1,226 @@
+@import url(./reset.css);
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    font-family: Raleway, sans-serif;
+}
+
+.banner {
+    width: inherit;
+    height: 605px;
+    background-image: url(../images/banner.png), -webkit-linear-gradient(hsla(0, 0%, 0%, 1), hsla(198, 72%, 10%, 1) , hsla(0, 0%, 0%, 1));
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-content {
+    width: 515px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.banner-content .logo img{
+    background-color: hsla(0, 0%, 0%, 0.2);
+    width: 268px;
+    height: 235px;
+    padding: 20px;
+    border-radius: 50%;
+}
+
+.banner-content h1 {
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 46.96px;
+    text-transform:uppercase ;
+    background: -webkit-linear-gradient(180deg, #33A8DB 0%, #1472B7 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-top: 16px;
+}
+
+.banner-content p {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23.48px;
+    color: hsla(0, 0%, 100%, 1);
+    margin-top: 16px;
+}
+
+.banner-content button {
+    width: 326px;
+    height: 57px;
+    background-color: transparent;
+    border: 2px solid;
+    border-image-source: linear-gradient(180deg, #3BA1CD 0%, #1572B7 100%);
+    border-image-slice: 1;
+    margin-left: 90px;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 18.78px;
+    letter-spacing: 0.21em;
+    text-align: center;
+    text-wrap: nowrap;
+    color: hsla(198, 72%, 53%, .9);
+    margin-top: 24px;
+    cursor: pointer;
+}
+
+#course-content {
+    width: inherit;
+    height: 533px;
+    background-color: #000;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid hsla(198, 70%, 53%, .5);
+    border-top: 1px solid hsla(198, 70%, 53%, .5);
+}
+
+#course-content h2 {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 37.57px;
+    letter-spacing: 0.19em;
+    color: hsla(198, 70%, 53%, 1);
+    text-transform: uppercase;
+}
+
+#course-content p {
+    width: 792px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18.78px;
+    color: hsla(0, 0%, 100%, 1);
+    margin-top: 24px;
+}
+
+.modules-list {
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18.78px;
+}
+
+.modules-list .module {
+    color: hsla(0, 0%, 100%, 1);
+    background-color: hsla(0, 0%, 15%, 1);
+    width: 535px;
+    height: 51px;
+    border-radius: 57px;
+    border: 1px solid hsla(198, 70%, 53%, .5);
+    padding-top: 15px;
+    margin-top: 24px;
+    box-shadow: inset -8px 8px 10px rgb(15, 15, 15);
+}
+
+.modules-list .module span {
+    color: hsla(198, 70%, 53%, 1);
+}
+
+#transform-world {
+    background-image: url(../images/woman-code.png), -webkit-linear-gradient(rgb(0, 0, 0), rgb(0, 0, 0), hsla(0, 0%, 0%, 1));
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 570px;
+    position: relative;
+    border-bottom: 1px solid hsla(198, 70%, 53%, .5);
+}
+
+#transform-world p {
+    width: 285px;
+    height: 141px;
+    font-size: 45px;
+    font-weight: 900;
+    line-height: 46.96px;
+    text-transform: lowercase;
+    top: 200px;
+    position: absolute;
+    left: 198px;
+    color: hsla(0, 0%, 100%, 1);
+    text-shadow: 3px 2px hsla(198, 70%, 53%, 1);
+
+}
+
+#professional-challenges {
+    background-color: #000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#professional-challenges h2 {
+    width: 800px;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 37.57px;
+    letter-spacing: 0.19em;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 76px 0 32px 0;
+    color: hsla(198, 70%, 53%, 1);
+
+}
+
+#professional-challenges img {
+    width: 659px;
+    height: 429px;
+    text-align: center;
+}
+
+#professional-challenges p {
+    width: 792px;
+    height: 76px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18.78px;
+    text-align: center;
+    color: hsla(0, 0%, 100%, 1);
+    margin: 40px 0 90px 0;
+}
+
+.footer {
+    background-image: -webkit-linear-gradient(hsla(0, 0%, 0%, 1), hsla(198, 72%, 10%, 1));
+    width: inherit;
+    height: 170px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid hsla(198, 70%, 53%, .5);
+    padding:30px 0 80px 0;
+}
+
+.footer img {
+    margin-top: 59px;
+    width: 300px;
+    height: 44px;
+}
+
+.footer p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18.78px;
+    text-align: center;
+    color: hsla(0, 0%, 100%, 1);
+    margin-top: 10px;
+}
+
+.footer a {
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 18.78px;
+    text-align: center;
+    color: hsla(198, 70%, 53%, 1);
+}
+
